@@ -1,0 +1,70 @@
+
+body {
+    font-family: Helvetica;    
+}
+
+#myform
+{
+    border: 2px solid #a1a1a1;
+    padding:10px 40px; 
+    background:#EBEBEB;
+    width: 300px;
+    border-radius:20px;
+    left: 70px;
+    top: 10px;
+    position: relative;
+}
+
+
+#title_username,#password_label,#name_label,#member_label,#genre_label,#birth_date_label,#email_label,#country_label,#city_label,#foto_label{
+    font-size: 150%;
+    color: #E56717;
+    font-family: Helvetica;
+}
+
+#private_label,#shop_label,#male_label,#female_label,#nogenre_label{
+    font-size: 100%;
+}
+
+
+#age{left:72px;position: relative;}
+#firstname{left:24px;position: relative;}
+#lastname{left:25px;position: relative;}
+#nickname{left:28px;position: relative;}
+#password{left:33px;position: relative;}
+#name{left:59px;position:relative;}
+#members{position:relative;left:80px;}
+#shop{position: relative;left:16px;}
+#city{position: relative;left:31px;}
+#genres{position:relative;left:80px;}
+#male{position:relative;left:17px;}
+#female{position:relative;left:3px;}
+#nogenre{position:relative;left:16px;}
+#birthdate{position:relative;left:31px;}
+#email{position:relative;left:61px;}
+
+#submit_button{
+    font-size: 25px;
+    background-color: #A92B00;
+    border: 1px solid #a1a1a1;
+    border-radius: 20px; 
+    color: #EBEBEB;
+}
+
+p.hint{
+    color: #7F5A58;
+    margin: 0 0 0 0px;
+    width: 263px;
+    font-size: 10px;
+}
+
+
+.error-avatar, .error-country,  .error-email, .error-firstname ,.error-lastname,
+.error-email,    .error-pass,  .error-town, .error-type ,.error-age{ 
+    color: red; 
+    font-size: 13px;
+}
+
+.success { 
+    color: green; 
+}

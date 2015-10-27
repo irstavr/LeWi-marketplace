@@ -1,0 +1,415 @@
+/* 
+    Document   : mainCss
+    Created on : 24 Απρ 2012, 3:56:21 μμ
+    Author     : Irini
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+* {
+    font-family: Georgia,serif;
+    font-size: 11px;
+}
+
+BODY {
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    background-image: url("bg.gif");
+    color: #000000;
+    font-family: Georgia,serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+IMG {
+    border: medium none;
+}
+
+#img{
+    height: 200px;
+    width: 150px;
+    border:2px solid black;
+}
+
+FORM {
+    display: inline;
+}
+
+H1 {
+    color: #BC3501;
+    font-family: Georgia,serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+H2 {
+    color: #BC3501;
+    font-family: Georgia,serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+TEXTAREA {
+    width: 98%;
+}
+
+INPUT[type="text"], INPUT[type="password"] {
+    border: medium none;
+}
+
+INPUT[type="image"] {
+    border: medium none;
+}
+
+A {
+    font-family: Georgia,serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+A:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    height: 100%;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+#content {
+    background-image: url("background7.png");
+    background-repeat: repeat-y;
+    min-height: 660px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: left;
+}
+
+#footer {
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 10px;
+}
+
+#footer a {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footer span {
+    color: #C64603;
+}
+
+#sidebarLeft {
+    color: #D2D2BB;
+    font-size: 11px;
+    font-weight: bold;
+    left: 55px;
+    line-height: 16px;
+    position: absolute;
+    width: 150px;
+}
+
+#sidebarRight {
+    color: #D2D2BB;
+    font-size: 11px;
+    font-weight: bold;
+    left: 800px;
+    line-height: 16px;
+    position: absolute;
+    width: 145px;
+}
+
+#sidebarLeft table {
+    width: 100%;
+}
+
+#sidebarLeft td, #sidebarRight td {
+    padding: 0;
+}
+
+#sidebarLeft a, #sidebarRight a {
+    color: #D2D2BB;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    width: 150px;
+}
+
+div.box {
+    margin-bottom: 20px;
+    width: 145px;
+}
+
+div.box input[type="image"] {
+    margin-top: 5px;
+}
+
+div.box input[type="text"], .boxContent input[type="password"] {
+    padding: 1px;
+    width: 128px;
+}
+
+.boxHeadline {
+    background-color: #C64603;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-top: 2px;
+    text-transform: uppercase;
+    
+    behavior: url(/css/border-radius.htc);
+    border-radius: 3px;
+}
+
+.boxContent {
+    background-color: #3E2A1D;
+    padding: 5px 5px 2px;
+    
+    behavior: url(/css/border-radius.htc);
+    border-radius: 3px;
+}
+
+div#cart span#tax {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#mainColumn {
+    margin-left: 215px;
+    min-height: 550px;
+    width: 580px;
+}
+
+#productTable {
+    width: 100%;
+}
+
+.sectionHeadline {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#path a, #path {
+    color: #D2D2BB;
+    font-family: Arial,Verdana;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#productContainer {
+    margin: 0;
+    width: 590px;
+}
+
+div.productThumb {
+    float: left;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 182px;
+}
+
+div.productThumb table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.productThumbHeader {
+    background-image: url("thumbHeader.gif");
+    background-repeat: no-repeat;
+    height: 8px;
+}
+
+td.productThumbFooter {
+    background-image: url("thumbFooter.gif");
+    background-repeat: no-repeat;
+    height: 6px;
+}
+
+td.productThumbImage {
+    background-color: #FFFFFF;
+    height: 142px;
+    text-align: center;
+}
+
+td.productThumbImage div.overlay {
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    top: -130px;
+}
+
+td.productThumbImage div.thumbImg {
+    height: 140px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 182px;
+}
+
+td.productName, td.productPrice, td.productThumbFooter {
+    background-color: #D2D2BB;
+}
+
+.productName {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 8px 0;
+}
+
+.productName a, .productName a:visited {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.productPrice {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 8px 0;
+}
+
+.productPrice td {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lproductPrice10 td {
+    font-size: 12px;
+}
+
+#post {
+    background-color: #D2D2BB;
+    color: #3E2A1D;
+    width: 572px;
+    
+    behavior: url(/css/border-radius.htc);
+    border-radius: 3px;
+    
+}
+
+#post a {
+    color: #C64603;
+}
+
+.postHeader {
+    background-image: url("boxback.gif");
+    font-size: 0;
+    height: 12px;
+}
+
+.postBody {
+    padding-bottom: 0;
+}
+
+.postBody, .postTitle {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.postFooter {
+    background-image: url("boxbuck.gif");
+    height: 23px;
+}
+
+#productInfo {
+    border-collapse: collapse;
+    color: #3E2A1D;
+    width: 572px;
+}
+
+#productInfo a {
+    color: #C64603;
+}
+
+.productInfoImage {
+    background-color: #FFFFFF;
+    vertical-align: top;
+}
+
+.productInfoBody {
+    background-color: #D2D2BB;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 256px;
+}
+
+.productInfoHeader {
+    background-image: url("productInfoTop.gif");
+    height: 12px;
+}
+
+.productInfoFooter {
+    background-image: url("productInfoBottom.gif");
+    height: 20px;
+}
+
+#productInfoPrice {
+    font-size: 18px;
+}
+
+.textHeadline {
+    color: #C64603;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.copyright, .copyright a {
+    color: #382920;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+div.copyright {
+    margin-bottom: 20px;
+}
+
+.divider hr {
+    color: #3E2A1D;
+    height: 1px;
+    padding: 0;
+}
+
+
+.nobreak {
+    white-space: nowrap;
+}
+
+div#mainColumn input[type="text"], div#mainColumn input[type="password"] {
+    border: 1px solid #7C6253;
+}
+
+#SearchResults {
+background: #000000;
+display: none;
+overflow: auto;
+position: absolute;
+width: 330px;
+z-index: 99;
+}
+
+
+#SearchResults a {
+color: #FFFFFF;
+display: block;
+}
