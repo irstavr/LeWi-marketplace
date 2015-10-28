@@ -5,15 +5,14 @@ An online marketplace and auction platform (like the famous e-bay and amazon) <b
 for internet purchases which allows sales and purchases of goods (products or services) <br>
 among members who have registered.
 
-################################################
-## Technologies: 
+## Technologies: ##
 
 ### MVC model ###
 Model : Javabeans <br>
 View: JSPs, Javascript, Ajax, CSS, html <br>
 Controller: Java Servlets <br>
 
-################################################
+
 ## Operations: ## 
 
 Register/Update members ### - all members (individuals, stores) have a profile on the system <br>
