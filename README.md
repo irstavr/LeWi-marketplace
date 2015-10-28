@@ -13,7 +13,7 @@ View: JSPs, Javascript, Ajax, CSS, html <br>
 Controller: Java Servlets <br>
 
 
-## Operations: ## 
+## Operations: 
 
 Register/Update members - all members (individuals, stores) have a profile on the system <br>
 Adverts - every member can publish/edit/delete an advert of demand or sale for a product/service. <br>
