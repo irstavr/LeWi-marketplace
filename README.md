@@ -15,7 +15,7 @@ Controller: Java Servlets <br>
 
 ## Operations: ## 
 
-Register/Update members ### - all members (individuals, stores) have a profile on the system <br>
+Register/Update members - all members (individuals, stores) have a profile on the system <br>
 Adverts - every member can publish/edit/delete an advert of demand or sale for a product/service. <br>
 Subscribers - every member can select to get updates for other members's adverts <br>
 Rating system -for purchases/sellings <br>
